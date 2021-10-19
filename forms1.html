@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration</title>
+</head>
+
+<body>
+    <form name="registration_form" action="/sign.aspx" method="post">
+        <h1>REGISTRATION FORM</h1>
+        <label for="firstname">First Name:</label><br />
+        <input type="text" id="firstname" name="firstname" /><br /><br />
+        <label for="lastname">Last Name:</label><br />
+        <input type="text" id="lastname" name="lastname" /><br /><br />
+        <label for="username">UserName:</label><br />
+        <input type="text" id="username" name="username" /><br /><br />
+        <label for="password">PASSWORD</label><br />
+        <input type="password" id="password" name="password" /><br /><br />
+        <input type="submit" value="submit" />
+        <input type="reset" /><br /><br />
+
+        <label="city">choose a city</label><br />
+            <select id="city" name="city" size="2" multiple>
+        <option value="hyderabad">Hyderabad</option>
+        <option value="vijayawada" selected>Vijayawada</option>
+        <option value="kakinada">Kakinada</option>
+        <option value="chennai">Chennai</option>
+        <option value="tamilnadu">Tamilnadu</option></select
+      ><br /><br />
+
+      <label for="comments">Comments:</label><br />
+      <textarea name="comments" rows="5" cols="25"> please</textarea
+      ><br /><br />
+
+      <p>choose your favourite phone</p>
+      <input type="radio" id="redmi" name="phone" value="redmi" />
+      <label for="redmi">REDMI</label>
+      <input type="radio" id="vivo" name="phone" value="vivo" checked />
+      <label for="vivo">VIVO</label>
+      <input type="radio" id="samsung" name="phone" value="samsung" />
+      <label for="samsung">REDMI</label><br />
+
+      <p>please select your favourite vehicle</p>
+      <input type="checkbox" id="vehicle1" name="vehicle" value="bike" />
+      <label for="vehicle1">I have a bike</label>
+      <input type="checkbox" id="vehicle2" name="vehicle" value="car" checked />
+      <label for="vehicle2">I have a car</label>
+      <input type="checkbox" id="vehicle3" name="vehicle" value="cycle" />
+      <label for="vehicle3">I have a cycle</label><br /><br />
+
+      <label for="favcolor">Select your favourite color:</label><br />
+      <input type="color" id="favcolor" name="favcolor" /><br />
+
+      <label for="birthday">Birthday</label><br />
+      <input type="date" id="birthday" name="birthday" /><br />
+
+      <label for="myfile">upload your photo</label><br />
+      <input type="file" id="myfile" name="myfile" /><br />
+
+      <label for="quantity">Quantity</label><br />
+      <input
+        type="number"
+        id="quantity"
+        name="quantity"
+        min="0"
+        max="100"
+      /><br />
+
+      <label for="email">Enter your email:</label><br />
+      <input type="email" id="email" name="email" /><br /><br /><br />
+    </form>
+  </body>
+</html>
